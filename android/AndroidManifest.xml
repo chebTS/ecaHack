@@ -20,13 +20,21 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <activity 
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:name="com.ekreative.battleosandroid.BattleActivity"
+            android:screenOrientation="portrait">            
+        </activity>
+        <activity 
+            android:name="com.ekreative.battleosandroid.SettingsActivity"
+            android:screenOrientation="portrait">            
+        </activity>        
         <activity
-            android:name="com.ekreative.battleosandroid.MainActivity"
-            android:screenOrientation="landscape"
+            android:name="com.ekreative.battleosandroid.FirstActivity"
+            android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/iosvsandroid2" />
+
+    <Button 
+        android:text="Fight"
+        android:background="@drawable/layers_button"
+        android:layout_margin="5dp"
+        android:id="@+id/btnFight"    
+        android:textStyle="bold"
+        android:textSize="18sp"    
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="250dp"/>
+    <Button 
+        android:text="Settings"                
+        android:background="@drawable/layers_button"
+        android:layout_margin="5dp"
+        android:id="@+id/btnSettings"        
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="250dp"/>
+    <Button 
+        android:id="@+id/btnExit"              
+        android:background="@drawable/layers_button"  
+        android:layout_margin="5dp"
+        android:text="Exit"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="250dp"/>    
+
+</LinearLayout>

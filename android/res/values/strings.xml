@@ -4,5 +4,9 @@
     <string name="app_name">BattleOSAndroid</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+	<!-- internet -->
+	<string name="interner_status">"Internet status : "</string>
+	<string name="interner_connecting">"Connecting ..."</string>
+	<string name="interner_ok">"OK"</string>
+	
 </resources>
